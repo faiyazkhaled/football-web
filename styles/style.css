@@ -211,10 +211,139 @@ footer img {
   margin-top: 20px;
   margin-bottom: 63px;
 }
-<<<<<<< HEAD
 /* ----------------------------------------------------------- */
 /* media queries */
+@media only screen and (max-width: 688px) {
 
-=======
-/* ----------------------------------------------------------- */
->>>>>>> 64a74b71de725719b17fc145510753034792a46f
+  body {
+    width: 100%;
+  }
+header{
+width: 100%;
+}
+ 
+  main {
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  nav {
+    width: 80%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+  }
+
+  .buttons-all {
+    background-color: #e02c6d;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    width: 90px;
+    height: 33px;
+    border: 2px solid #e02c6d;
+    margin-bottom: 29px;
+    color: #ffffff;
+    
+  }
+
+  .top-banner {
+    flex-direction: column;
+    width: 90%;
+    margin-top: 0;
+    align-items: center;
+  }
+
+  .top-banner-left {
+    margin-left: 20px;
+  }
+
+  .top-banner-left h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    /* font-size: 64px; */
+    margin-top: 0;
+    font-size: 36px;
+    color: white;
+  }
+
+  .top-banner-right img {
+    width: 300px;
+    height: 256px;
+    margin-top: 50px;
+    margin-bottom: 69px;
+  }
+
+  .players {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 47px;
+    grid-row-gap: 15px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+  }
+
+  .player {
+    width: 330px;
+    height: 474px;
+    padding: 15px;
+    align-items: center;
+  }
+
+  .player img {
+    width: 300px;
+    height: 256px;
+    
+  }
+
+  .player-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191f;
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+
+  .player-info {
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #6c6c6c;
+    font-weight: normal;
+    font-size: 12px;
+  }
+
+  .highlights-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .left-banner {
+    margin: 0;
+  }
+
+  .highlights-title {
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  .highlights-text {
+    font-weight: normal;
+    font-size: 16px;
+  }
+
+  .right-banner img {
+    width: 328px;
+    height: 248px;
+  }
+
+  footer img {
+    width: 80%;
+    height: 80%;
+  }
+}
